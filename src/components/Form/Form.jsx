@@ -1,7 +1,7 @@
 import React from "react";
-import style from "./SignIn.module.css";
+import style from "./Form.module.css";
 
-export const SignIn = (props) => {
+export const Form = (props) => {
     const onChnage = (event) => {
         props.onChangeTitle(event.target.value);
     };

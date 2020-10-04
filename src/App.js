@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import "./styles.css";
 import {Modal} from "./components/Modal/Modal";
-import {SignIn} from "./components/SignIn/SignIn";
+import {Form} from './components/Form/Form'
+
 
 const App = () => {
 
@@ -33,7 +34,7 @@ const App = () => {
                 onChangeTitle={onChangeTitle}
                 modalClosed={modalHandler}
             >
-                <SignIn
+                <Form
                     title={title}
                     onChangeTitle={onChangeTitle}
                     modalClosed={modalHandler}
